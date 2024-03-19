@@ -2,16 +2,16 @@ import BannerImage from "../assets/banner.png"
 const Banner = () => {
     const style = {
         backgroundImage: `url(${BannerImage})`,
-        backgroundSize: "",
+        backgroundSize: "fit",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         height: "70vh",
-        width: "100vw",
+        width: "99vw",
         backgroundAttachment: "fixed",
         overflow: "hidden"
     }
     return (
-        <div style={style}>
+        <div style={style} className="overflow-hidden">
             <div className="pt-52 pl-60">
                 <h2 className="text-[40px] text-white font-medium">
                     Welcome to <span className="text-[#006CE4]">AirBook</span>

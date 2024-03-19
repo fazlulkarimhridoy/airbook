@@ -4,7 +4,7 @@ import image3 from "../assets/image3.svg"
 
 const Featured = () => {
     return (
-        <div className="w-[60%] mx-auto">
+        <div className="w-[60%] mx-auto overflow-hidden">
             <h2 className="text-3xl font-semibold mt-5 ml-5">Featured Destinations</h2>
             <div className="mt-10 mb-20 flex flex-row items-center justify-around">
                 <div className="shadow-2xl p-3 rounded-xl w-fit">

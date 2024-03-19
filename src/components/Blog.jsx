@@ -7,7 +7,7 @@ import image6 from "../assets/blog6.svg"
 
 const Blog = () => {
     return (
-        <div className="w-[60%] mx-auto">
+        <div className="w-[60%] mx-auto overflow-hidden">
             <h2 className="text-3xl font-semibold mt-5 ml-5">Travel Blog</h2>
             <div className="mt-10 mb-20 flex items-center justify-between">
                 {/*blog-1  */}

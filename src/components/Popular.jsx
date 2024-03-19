@@ -9,7 +9,7 @@ import image6 from "../assets/popular6.svg"
 
 const Popular = () => {
     return (
-        <div className="w-[60%] mx-auto">
+        <div className="w-[60%] mx-auto overflow-hidden">
             <h2 className="text-3xl font-semibold mt-5 ml-5">Popular Airlines</h2>
             <div className="mt-10 mb-20">
                 <div className="flex items-center justify-between">
